@@ -12,6 +12,10 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 header h1 {
@@ -59,4 +63,15 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
+.btn {
+    display: inline-block;
+    background: #31a14d;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
